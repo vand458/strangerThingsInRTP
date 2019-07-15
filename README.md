@@ -30,3 +30,16 @@ Post your solution to a public repository on [Github](https://github.com/). Send
 
 ### Questions?
 If there's anything that's unclear or if you just have a general question, we're just an email away! :)
+
+
+-------------------------------
+notes
+-------------------------------
+
+keep having Access-Control-Allow-Origin (CORS origin) Issue when trying to parse the JSON file
+
+--> copy the content to a data variable for now
+
+--> will find a way to fix the parsing later
+
+
