@@ -114,6 +114,30 @@ nav {
               nav > ul > li > div ul > li:hover > a {
                 background-color: rgba( 255, 255, 255, 0.1);
               }
+			  
+/*table*/
+#episodes {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#episodes td, #episodes th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#episodes tr:nth-child(even){background-color: #f2f2f2;}
+
+#episodes tr:hover {background-color: #ddd;}
+
+#episodes th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #6c6c6c;
+  color: white;
+}			  
 
 /*snippets css*/
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
@@ -158,17 +182,7 @@ nav {
   position: relative;
 }
 
-.snip1568 figcaption:after {
-  content: '';
-  position: absolute;
-  left: 32px;
-  top: 100%;
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 10px 10px 0 10px;
-  border-color: #6c6c6c transparent transparent transparent;
-}
+
 
 .snip1568 h3,
 .snip1568 h4,

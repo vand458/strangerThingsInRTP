@@ -126,15 +126,32 @@ var data = {
     ]
 }
 
- document.getElementById("heading").innerHTML=data.heading;
- document.getElementById("description").innerHTML=data.description;
-  document.getElementById("snippet1").innerHTML=data.snippets[0];
-   document.getElementById("snippet2").innerHTML=data.snippets[1];
+	document.getElementById("heading").innerHTML=data.heading;
+	document.getElementById("description").innerHTML=data.description;
+	document.getElementById("snippet1").innerHTML=data.snippets[0];
+	document.getElementById("snippet2").innerHTML=data.snippets[1];
     document.getElementById("snippet3").innerHTML=data.snippets[2];
+	document.getElementById("video-embed").src=data['video-embed'];
+	
+	
+	document.getElementById("quoteText").innerHTML=data.quote.text;
+	document.getElementById("quoteAuthor").innerHTML=data.quote.author;
+	document.getElementById("locationKerleyCornwally").alt=data.locations[0];
+	document.getElementById("locationLochNora").alt=data.locations[0];
+	document.getElementById("locationLochNora").innerHTML=data.locations[1];
+	document.getElementById("locationKerleyCornwally").src=data.gallery[0].src;
+	document.getElementById("trickOrTreatLochNoraImg").src=data.gallery[1].src;
+	document.getElementById("trickOrTreatLochNora").innerHTML=data.gallery[1].text;
+	document.getElementById("drawingEnoJordanImg").src=data.gallery[2].src;
+	document.getElementById("drawingEnoJordan").innerHTML=data.gallery[2].text;
+	document.getElementById("mapHawkinsImg").src=data.gallery[3].src;
+	document.getElementById("mapHawkins").innerHTML=data.gallery[3].text;
+	
+//episode list 
+	document.getElementById("episodeLi1Season").innerHTML='Season: ' + data['episode-list'][0].season;
+	document.getElementById("episodeLi1Name").innerHTML= data['episode-list'][0].name;
+	document.getElementById("episodeLi1Rating").innerHTML='Rating: ' + data['episode-list'][0].rating;
+	
 //console.log(data.description);
 //console.log(data["episode-list"]);
-$(".hover").mouseleave(
-  function () {
-    $(this).removeClass("hover");
-  }
-);
+
