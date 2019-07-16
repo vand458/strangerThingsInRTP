@@ -126,6 +126,15 @@ var data = {
     ]
 }
 
-console.log(data.heading);
-console.log(data.description);
-console.log(data["episode-list"]);
+ document.getElementById("heading").innerHTML=data.heading;
+ document.getElementById("description").innerHTML=data.description;
+  document.getElementById("snippet1").innerHTML=data.snippets[0];
+   document.getElementById("snippet2").innerHTML=data.snippets[1];
+    document.getElementById("snippet3").innerHTML=data.snippets[2];
+//console.log(data.description);
+//console.log(data["episode-list"]);
+$(".hover").mouseleave(
+  function () {
+    $(this).removeClass("hover");
+  }
+);
