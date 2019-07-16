@@ -131,8 +131,7 @@ var data = {
 	document.getElementById("snippet1").innerHTML=data.snippets[0];
 	document.getElementById("snippet2").innerHTML=data.snippets[1];
     document.getElementById("snippet3").innerHTML=data.snippets[2];
-	document.getElementById("video-embed").src=data['video-embed'];
-	
+	document.getElementById("video-embed").src=data['video-embed'];	
 	
 	document.getElementById("quoteText").innerHTML=data.quote.text;
 	document.getElementById("quoteAuthor").innerHTML=data.quote.author;
@@ -148,10 +147,22 @@ var data = {
 	document.getElementById("mapHawkins").innerHTML=data.gallery[3].text;
 	
 //episode list 
-	document.getElementById("episodeLi1Season").innerHTML='Season: ' + data['episode-list'][0].season;
+	document.getElementById("episodeLi1Season").innerHTML=data['episode-list'][0].season;
 	document.getElementById("episodeLi1Name").innerHTML= data['episode-list'][0].name;
-	document.getElementById("episodeLi1Rating").innerHTML='Rating: ' + data['episode-list'][0].rating;
+	document.getElementById("episodeLi1Rating").innerHTML=data['episode-list'][0].rating;
 	
+/* TODO fix  blocked by CORS policy: error! 
+	
+	var xmlhttp = new XMLHttpRequest();
+xmlhttp.onreadystatechange = function() {
+  if (this.readyState == 4 && this.status == 200) {
+    var myObj = JSON.parse(this.responseText);
+    document.getElementById("demo").innerHTML = myObj.name;
+  }
+};
+xmlhttp.open("GET", "data/en_US.json", true);
+xmlhttp.send();
+*/	
 //console.log(data.description);
 //console.log(data["episode-list"]);
 
