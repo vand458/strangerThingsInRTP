@@ -1,7 +1,5 @@
 # Stranger Things - FED Exercise
 
-Thank you for your interest in IBM. We are excited to learn more about you!
-
 This exercise is intended to help us get a better understanding of your approach to design and front-end development. There is no right or wrong way to complete this project, and there are no tricks or sneaky bits to trip you up — we just want to see how you build things.
 
 Feel free to use Google, Stack Overflow, or other resources to complete this project. We want to know how you develop normally, not how you work from memory or in extraordinary  circumstances.
