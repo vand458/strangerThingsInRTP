@@ -33,16 +33,18 @@ If there's anything that's unclear or if you just have a general question, we're
 -------------------------------
 notes
 -------------------------------
+TODO items
+
+- change jsonUrl based on language selection
+
 - responsive
 
-- update design
 
-enhancement
+ENHANCEMENT items
+
 - fix a Cross-Origin Read Blocking (CORB) for embeded error and add trailers 
 - adding snippets with screenshots
-- change jsonUrl based on language selection
 - freeze menu when scrolling
-- add reference file "references.txt" to page/footer
 - search box
 - add google translate button
 - back to top link
