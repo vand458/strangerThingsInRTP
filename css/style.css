@@ -240,6 +240,7 @@ footer {
   transition: all 0.35s ease;
 }
 
+<<<<<<< HEAD
 /* Media Queries */
 
 @media screen and (max-width: 1000px)
@@ -256,3 +257,6 @@ footer {
 {
   h1 {font-size:1em;}
 }
+=======
+
+>>>>>>> 2d94d3981f4f14f5b9509fb2466c078236e45d0b
