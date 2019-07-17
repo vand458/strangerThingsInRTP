@@ -1,8 +1,8 @@
 var request;
 var data;
 var jsonUrl = "https://raw.githubusercontent.com/vand458/strangerThingsInRTP/master/data/la_PG.json";
-var jsonUrl_en = "https://raw.githubusercontent.com/vand458/strangerThingsInRTP/master/data/en_US.json";
-var jsonUrl_la = "https://raw.githubusercontent.com/vand458/strangerThingsInRTP/master/data/la_PG.json";
+//var jsonUrl_en = "https://raw.githubusercontent.com/vand458/strangerThingsInRTP/master/data/en_US.json";
+//var jsonUrl_la = "https://raw.githubusercontent.com/vand458/strangerThingsInRTP/master/data/la_PG.json";
 
 //TODO change jsonUrl based on language selection 
 document.getElementById("lang_enUs").addEventListener("click", function () {

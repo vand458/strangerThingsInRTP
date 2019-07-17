@@ -9,7 +9,7 @@ body {
 h1 {
   text-align: center;
 }
-
+/* Width and height apply to all parts of the element: content, padding and borders*/
 * {
   box-sizing: border-box;
 }
@@ -141,6 +141,10 @@ nav {
   text-align: left;
   background-color: #6c6c6c;
   color: white;
+}
+
+.languageSelection {
+	text-align: center;
 }
 
 footer { 

@@ -1,21 +1,29 @@
 var request;
 var data;
 var jsonUrl = "https://raw.githubusercontent.com/vand458/strangerThingsInRTP/master/data/en_US.json";
-var jsonUrl_en = "https://raw.githubusercontent.com/vand458/strangerThingsInRTP/master/data/en_US.json";
-var jsonUrl_la = "https://raw.githubusercontent.com/vand458/strangerThingsInRTP/master/data/la_PG.json";
+//var jsonUrl_en = "https://raw.githubusercontent.com/vand458/strangerThingsInRTP/master/data/en_US.json";
+//var jsonUrl_la = "https://raw.githubusercontent.com/vand458/strangerThingsInRTP/master/data/la_PG.json";
 
+/*  //TODO change jsonUrl based on language selection 
 
-//TODO change jsonUrl based on language selection 
-document.getElementById("lang_enUs").addEventListener("click", function () {
-	jsonUrl = jsonUrl_en;
-});
+	document.getElementById("english").addEventListener('click', updateJsonUrl);
+	document.getElementById("latin").addEventListener('click', updateJsonUrl);
+	function updateJsonUrl(event) {
+		//event.preventDefault();
+		console.log("You change the radio value");
+		if (document.querySelector('input[name=lang]:checked').id === "english") {
+			jsonUrl = jsonUrl_en;
+	} else if (document.querySelector('input[name=lang]:checked').id === "latin")
+	{
+		jsonUrl = jsonUrl_la;
+	}
+	}
+*/
 
-document.getElementById("lang_laPg").addEventListener("click", function () {
-	jsonUrl = jsonUrl_la;
-});
 
 //parsing data
 if (window.XMLHttpRequest) {
+	console.log("hereeeee");
 	//create a new XMLHttpRequest
 	request = new XMLHttpRequest();
 } else {
