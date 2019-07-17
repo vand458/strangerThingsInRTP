@@ -35,19 +35,14 @@ notes
 -------------------------------
 TODO items
 
-keep having Access-Control-Allow-Origin (CORS origin) Issue when trying to parse the JSON file
-
---> copy the content to a data variable for now
 - responsive
 
 
 ENHANCEMENT items
 
-- fix a Cross-Origin Read Blocking (CORB) for embeded error and add trailers 
+- fix a Cross-Origin Read Blocking (CORB) for embeded error and add trailers
 - adding snippets with screenshots
 - freeze menu when scrolling
 - search box
 - add google translate button
 - back to top link
-
-
