@@ -161,33 +161,30 @@ document.getElementById("episodeLi2_6Season").innerHTML = data['episode-list'][3
 document.getElementById("episodeLi2_6Name").innerHTML = data['episode-list'][3].name;
 document.getElementById("episodeLi2_6Rating").innerHTML = data['episode-list'][3].rating;
 
-document.getElementById("episodeLi2_8Season").innerHTML = data['episode-list'][4].season;
-document.getElementById("episodeLi2_8Name").innerHTML = data['episode-list'][4].name;
-document.getElementById("episodeLi2_8Rating").innerHTML = data['episode-list'][4].rating;
+document.getElementById("episodeLi1_7Season").innerHTML = data['episode-list'][4].season;
+document.getElementById("episodeLi1_7Name").innerHTML = data['episode-list'][4].name;
+document.getElementById("episodeLi1_7Rating").innerHTML = data['episode-list'][4].rating;
 
-document.getElementById("episodeLi1_7Season").innerHTML = data['episode-list'][5].season;
-document.getElementById("episodeLi1_7Name").innerHTML = data['episode-list'][5].name;
-document.getElementById("episodeLi1_7Rating").innerHTML = data['episode-list'][5].rating;
 
-document.getElementById("episodeLi2_5Season").innerHTML = data['episode-list'][6].season;
-document.getElementById("episodeLi2_5Name").innerHTML = data['episode-list'][6].name;
-document.getElementById("episodeLi2_5Rating").innerHTML = data['episode-list'][6].rating;
+document.getElementById("episodeLi2_5Season").innerHTML = data['episode-list'][5].season;
+document.getElementById("episodeLi2_5Name").innerHTML = data['episode-list'][5].name;
+document.getElementById("episodeLi2_5Rating").innerHTML = data['episode-list'][5].rating;
 
-document.getElementById("episodeLi1_3Season").innerHTML = data['episode-list'][7].season;
-document.getElementById("episodeLi1_3Name").innerHTML = data['episode-list'][7].name;
-document.getElementById("episodeLi1_3Rating").innerHTML = data['episode-list'][7].rating;
+document.getElementById("episodeLi1_3Season").innerHTML = data['episode-list'][6].season;
+document.getElementById("episodeLi1_3Name").innerHTML = data['episode-list'][6].name;
+document.getElementById("episodeLi1_3Rating").innerHTML = data['episode-list'][6].rating;
 
-document.getElementById("episodeLi1_4Season").innerHTML = data['episode-list'][8].season;
-document.getElementById("episodeLi1_4Name").innerHTML = data['episode-list'][8].name;
-document.getElementById("episodeLi1_4Rating").innerHTML = data['episode-list'][8].rating;
+document.getElementById("episodeLi1_4Season").innerHTML = data['episode-list'][7].season;
+document.getElementById("episodeLi1_4Name").innerHTML = data['episode-list'][7].name;
+document.getElementById("episodeLi1_4Rating").innerHTML = data['episode-list'][7].rating;
 
-document.getElementById("episodeLi1_6Season").innerHTML = data['episode-list'][9].season;
-document.getElementById("episodeLi1_6Name").innerHTML = data['episode-list'][9].name;
-document.getElementById("episodeLi1_6Rating").innerHTML = data['episode-list'][9].rating;
+document.getElementById("episodeLi1_6Season").innerHTML = data['episode-list'][8].season;
+document.getElementById("episodeLi1_6Name").innerHTML = data['episode-list'][8].name;
+document.getElementById("episodeLi1_6Rating").innerHTML = data['episode-list'][8].rating;
 
-document.getElementById("episodeLi2_4Season").innerHTML = data['episode-list'][1].season;
-document.getElementById("episodeLi2_4Name").innerHTML = data['episode-list'][1].name;
-document.getElementById("episodeLi2_4Rating").innerHTML = data['episode-list'][1].rating;
+document.getElementById("episodeLi2_4Season").innerHTML = data['episode-list'][9].season;
+document.getElementById("episodeLi2_4Name").innerHTML = data['episode-list'][9].name;
+document.getElementById("episodeLi2_4Rating").innerHTML = data['episode-list'][9].rating;
 
 document.getElementById("episodeLi2_3Season").innerHTML = data['episode-list'][10].season;
 document.getElementById("episodeLi2_3Name").innerHTML = data['episode-list'][10].name;

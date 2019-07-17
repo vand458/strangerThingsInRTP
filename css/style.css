@@ -10,6 +10,10 @@ h1 {
   text-align: center;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 nav {
   background-color: #fff;
   border: 1px solid #dedede;
