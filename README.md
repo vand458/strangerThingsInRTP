@@ -33,11 +33,18 @@ If there's anything that's unclear or if you just have a general question, we're
 -------------------------------
 notes
 -------------------------------
+- responsive
 
-keep having Access-Control-Allow-Origin (CORS origin) Issue when trying to parse the JSON file
+- update design
 
---> copy the content to a data variable for now
-
---> will find a way to fix the parsing later
+enhancement
+- fix a Cross-Origin Read Blocking (CORB) for embeded error and add trailers 
+- adding snippets with screenshots
+- change jsonUrl based on language selection
+- freeze menu when scrolling
+- add reference file "references.txt" to page/footer
+- search box
+- add google translate button
+- back to top link
 
 
