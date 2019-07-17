@@ -1,4 +1,4 @@
-var data = {
+/* var data = {
     "heading": "Stranger Things in RTP",
     "description": "The Duffer Brothers, born and raised in Durham, drop quite a few Durham-area references in the Emmy-winning hit sci-fi series 'Stranger Things' that they write, direct and produce.",
     "snippets": [
@@ -123,6 +123,25 @@ var data = {
         }
     ]
 }
+*/
+
+var request;
+var data;
+if (window.XMLHttpRequest) {
+	request = new XMLHttpRequest();
+} else {
+	request = new ActiveXObject("Microsoft.XMLHTTP");
+}
+/* TODO work around for now, develop own Cross-Origin Resource Sharing implementation */
+request.open('GET', 'https://cors-anywhere.herokuapp.com/https://raw.githubusercontent.com/vand458/strangerThingsInRTP/master/data/en_US.json');
+request.setRequestHeader("Accept", 'application/json');
+request.onreadystatechange = function() {
+	if ((request.readyState===4) && (request.status===200)) {
+		data = JSON.parse(request.responseText);
+		console.log(data);
+	}
+	
+	
 
 document.getElementById("heading").innerHTML = data.heading;
 document.getElementById("description").innerHTML = data.description;
@@ -213,25 +232,13 @@ document.getElementById("episodeLi2_1Rating").innerHTML = data['episode-list'][1
 document.getElementById("episodeLi2_7Season").innerHTML = data['episode-list'][16].season;
 document.getElementById("episodeLi2_7Name").innerHTML = data['episode-list'][16].name;
 document.getElementById("episodeLi2_7Rating").innerHTML = data['episode-list'][16].rating;
-
-
-
-/* TODO fix  blocked by CORS policy: error!
-
-var request;
-if (window.XMLHttpRequest) {
-	request = new XMLHttpRequest();
-} else {
-	request = new ActiveXObject("Microsoft.XMLHTTP");
-}
-request.open('GET', 'data.json');
-request.onreadystatechange = function() {
-	if ((request.readyState===4) && (request.status===200)) {
-		var items = JSON.parse(request.responseText);
-		console.log(items);
-	}
+	
 }
 request.send();
-*/
+
+
+
+
+
 //console.log(data.description);
 //console.log(data["episode-list"]);
