@@ -119,7 +119,7 @@ nav {
                 background-color: rgba( 255, 255, 255, 0.1);
               }
 
-/*table*/
+/*style for tables listing episodes*/
 #episodes {
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
   border-collapse: collapse;
@@ -141,6 +141,11 @@ nav {
   text-align: left;
   background-color: #6c6c6c;
   color: white;
+}
+
+footer { 
+  display: block;
+  text-align: center;
 }
 
 /*snippets css*/
@@ -230,3 +235,5 @@ nav {
   -webkit-transition: all 0.35s ease;
   transition: all 0.35s ease;
 }
+
+

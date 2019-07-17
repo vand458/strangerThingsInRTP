@@ -1,228 +1,239 @@
-<!doctype html><html><head>
-  <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="css/style.css"></head>
+<!doctype html>
+<html>
 
-  <body> <div id="page">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
 
-    <header class="homeHeader pageHeader" role="banner"></header>
-<!-- set of navigation link -->
-<nav>
-	<ul>
-		<li>
-			<a href="index.html#home">
-				<img style="width:76px;height:25px;" id="homeImg" src="images/stanger-things_raw.png">
+<body>
+    <div id="page">
+
+        <header class="homeHeader pageHeader" role="banner"></header>
+        <!-- set of navigation link -->
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html#home">
+                        <img style="width:76px;height:25px;" id="homeImg" src="images/stanger-things_raw.png">
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html#rtpReferencesSection">RTP References</a>
+                </li>
+                <li>
+                    <a href="index.html#episodeListSeason1">Season 1 episodes
+
 				</a>
-			</li>
-			<li>
-				<a href="index.html#rtpReferencesSection">RTP References</a>
-			</li>
-			<li>
-				<a href="index.html#episodeListSeason1">Season 1 episodes
-
-				</a>
-			</li>
-			<li>
-				<a href="index.html#episodeListSeason2">Season 2 episodes
+                </li>
+                <li>
+                    <a href="index.html#episodeListSeason2">Season 2 episodes
 
 					</a>
-				</li>
-				<!-- LANGUAGES -->
-        <li>
-  				<a href="index.html">English
+                </li>
+                <!-- LANGUAGES -->
+                <li>
+                    <a href="index.html" id="lang_enUs">English
 
   					</a>
-  				</li>
-          <li>
-    				<a href="index_laPG.html">Pig Latin
+                </li>
+                <li>
+                    <a href="index_laPG.html" id="lang_laPg">Pig Latin
 
     					</a>
-    				</li>
-			</ul>
-		</nav>
-		<!--toberendered from json heading -->
-		<a name="home">
-			<section class="main">
-				<h1 id="heading">
+                </li>
+            </ul>
+        </nav>
+        <!--toberendered from json heading -->
+        <a name="home">
+            <section class="main">
+                <h1 id="heading">
 					<a href="/index.htm"></a>
 				</h1>
-				<figure class="snip1568">
-					<figcaption>
-						<p id="snippet2"></p>
-					</figcaption>
-				</figure>
-        <figure class="snip1568">
+                <figure class="snip1568">
+                    <figcaption>
+                        <p id="snippet2"></p>
+                    </figcaption>
+                </figure>
+                <figure class="snip1568">
 
-            <!-- TODO fix a Cross-Origin Read Blocking (CORB) error -->
-  					<video width="320" height="240" controls autoplay id="video-embed"></video>
-        </figure>
-				<figure class="snip1568">
+                    <!-- TODO fix a Cross-Origin Read Blocking (CORB) error -->
+                    <video width="320" height="240" controls autoplay id="video-embed"></video>
+                </figure>
+                <figure class="snip1568">
 
-					<figcaption>
-						<p id="description"></p>
-					</figcaption>
-				</figure>
-			</section>
-		</a>
-		<a name="rtpReferencesSection">
-			<section class="rtpReferences">
-				<h1 id="rtpReferences">RTP References</h1>
-				<figure class="snip1568">
-					<figcaption>
-						<p id="snippet3"></p>
-					</figcaption>
-				</figure>
-				<figure class="snip1568">
-					<img style="width:315px;height:315px;" id="locationKerleyCornwally">
-						<figcaption>
-							<p id="snippet1"></p>
-						</figcaption>
-					</figure>
-					<figure class="snip1568">
-						<img style="width:315px;height:315px;" id="locationKerleyCornwallyMap" src="images/locationKerleyCornwally.PNG">
-							<figcaption>
-								<q id="quoteText"></q>
-								<p id="quoteAuthor"></p>
-							</figcaption>
-						</figure>
-						<figure class="snip1568">
-							<img style="width:315px;height:315px;" id="trickOrTreatLochNoraImg">
-								<figcaption>
-									<p id="trickOrTreatLochNora"></p>
-								</figcaption>
-							</figure>
-							<figure class="snip1568">
-								<img style="width:315px;height:315px;" src="images/locationLochNora.PNG">
-									<figcaption>
-										<p id="locationLochNora"></p>
-									</figcaption>
-								</figure>
-								<figure class="snip1568">
-									<img style="width:315px;height:315px;" id="drawingEnoJordanImg">
-										<figcaption>
-											<p id="drawingEnoJordan"></p>
-										</figcaption>
-									</figure>
-									<figure class="snip1568">
-										<img style="width:315px;height:315px;" id="mapHawkinsImg">
-											<figcaption>
-												<p id="mapHawkins"></p>
-											</figcaption>
-										</figure>
-									</section>
-								</a>
-								<a name="episodeListSeason1">
-									<section class="episodeListSeason1">
-										<h1 id="season1List">Season 1 episodes</h1>
-										<table id="episodes">
-											<tr>
-												<th id="season">Season</th>
-												<th id="name">Name</th>
-												<th id="rating">Rating</th>
-											</tr>
-											<tr>
-												<td id="episodeLi1_1Season"></td>
-												<td id="episodeLi1_1Name">></td>
-												<td id="episodeLi1_1Rating"></td>
-											</tr>
-											<tr>
-												<td id="episodeLi1_2Season"></td>
-												<td id="episodeLi1_2Name">></td>
-												<td id="episodeLi1_2Rating"></td>
-											</tr>
-											<tr>
-												<td id="episodeLi1_3Season"></td>
-												<td id="episodeLi1_3Name">></td>
-												<td id="episodeLi1_3Rating"></td>
-											</tr>
-											<tr>
-												<td id="episodeLi1_4Season"></td>
-												<td id="episodeLi1_4Name">></td>
-												<td id="episodeLi1_4Rating"></td>
-											</tr>
-											<tr>
-												<td id="episodeLi1_5Season"></td>
-												<td id="episodeLi1_5Name">></td>
-												<td id="episodeLi1_5Rating"></td>
-											</tr>
-											<tr>
-												<td id="episodeLi1_6Season"></td>
-												<td id="episodeLi1_6Name">></td>
-												<td id="episodeLi1_6Rating"></td>
-											</tr>
-											<tr>
-												<td id="episodeLi1_7Season"></td>
-												<td id="episodeLi1_7Name">></td>
-												<td id="episodeLi1_7Rating"></td>
-											</tr>
-											<tr>
-												<td id="episodeLi1_8Season"></td>
-												<td id="episodeLi1_8Name">></td>
-												<td id="episodeLi1_8Rating"></td>
-											</tr>
-										</table>
-									</section>
-								</a>
-								<a name="episodeListSeason2">
-									<section class="episodeListSeason2">
-										<h1 id="season2List">Season 2 episodes</h1>
-										<table id="episodes">
-											<tr>
-												<th id="season">Season</th>
-												<th id="name">Name</th>
-												<th id="rating">Rating</th>
-											</tr>
-											<tr>
-												<td id="episodeLi2_1Season"></td>
-												<td id="episodeLi2_1Name">></td>
-												<td id="episodeLi2_1Rating"></td>
-											</tr>
-											<tr>
-												<td id="episodeLi2_2Season"></td>
-												<td id="episodeLi2_2Name">></td>
-												<td id="episodeLi2_2Rating"></td>
-											</tr>
-											<tr>
-												<td id="episodeLi2_3Season"></td>
-												<td id="episodeLi2_3Name">></td>
-												<td id="episodeLi2_3Rating"></td>
-											</tr>
-											<tr>
-												<td id="episodeLi2_4Season"></td>
-												<td id="episodeLi2_4Name">></td>
-												<td id="episodeLi2_4Rating"></td>
-											</tr>
-											<tr>
-												<td id="episodeLi2_5Season"></td>
-												<td id="episodeLi2_5Name">></td>
-												<td id="episodeLi2_5Rating"></td>
-											</tr>
-											<tr>
-												<td id="episodeLi2_6Season"></td>
-												<td id="episodeLi2_6Name">></td>
-												<td id="episodeLi2_6Rating"></td>
-											</tr>
-											<tr>
-												<td id="episodeLi2_7Season"></td>
-												<td id="episodeLi2_7Name">></td>
-												<td id="episodeLi2_7Rating"></td>
-											</tr>
-											<tr>
-												<td id="episodeLi2_8Season"></td>
-												<td id="episodeLi2_8Name">></td>
-												<td id="episodeLi2_8Rating"></td>
-											</tr>
-											<tr>
-												<td id="episodeLi2_9Season"></td>
-												<td id="episodeLi2_9Name">></td>
-												<td id="episodeLi2_9Rating"></td>
-											</tr>
-										</table>
-									</section>
-								</a>
-								<!-- skip to main content for screen readers - todo enhancement-->
-								<!--<a href="#mainContent" title="skip to main page content" class="skip">Skip to main content</a>-->
-								<script type="text/javascript" src="script/script_laPG.js"></script>
-                <footer></footer>
-              </div>
-							</body>
-						</html>
+                    <figcaption>
+                        <p id="description"></p>
+                    </figcaption>
+                </figure>
+            </section>
+        </a>
+        <a name="rtpReferencesSection">
+            <section class="rtpReferences">
+                <h1 id="rtpReferences">RTP References</h1>
+                <figure class="snip1568">
+                    <figcaption>
+                        <p id="snippet3"></p>
+                    </figcaption>
+                </figure>
+                <figure class="snip1568">
+                    <img style="width:315px;height:315px;" id="locationKerleyCornwally">
+                    <figcaption>
+                        <p id="snippet1"></p>
+                    </figcaption>
+                </figure>
+                <figure class="snip1568">
+                    <img style="width:315px;height:315px;" id="locationKerleyCornwallyMap" src="images/locationKerleyCornwally.PNG">
+                    <figcaption>
+                        <q id="quoteText"></q>
+                        <p id="quoteAuthor"></p>
+                    </figcaption>
+                </figure>
+                <figure class="snip1568">
+                    <img style="width:315px;height:315px;" id="trickOrTreatLochNoraImg">
+                    <figcaption>
+                        <p id="trickOrTreatLochNora"></p>
+                    </figcaption>
+                </figure>
+                <figure class="snip1568">
+                    <img style="width:315px;height:315px;" src="images/locationLochNora.PNG">
+                    <figcaption>
+                        <p id="locationLochNora"></p>
+                    </figcaption>
+                </figure>
+                <figure class="snip1568">
+                    <img style="width:315px;height:315px;" id="drawingEnoJordanImg">
+                    <figcaption>
+                        <p id="drawingEnoJordan"></p>
+                    </figcaption>
+                </figure>
+                <figure class="snip1568">
+                    <img style="width:315px;height:315px;" id="mapHawkinsImg">
+                    <figcaption>
+                        <p id="mapHawkins"></p>
+                    </figcaption>
+                </figure>
+            </section>
+        </a>
+        <a name="episodeListSeason1">
+            <section class="episodeListSeason1">
+                <h1 id="season1List">Season 1 episodes</h1>
+                <table id="episodes">
+                    <tr>
+                        <th id="season">Season</th>
+                        <th id="name">Name</th>
+                        <th id="rating">Rating</th>
+                    </tr>
+                    <tr>
+                        <td id="episodeLi1_1Season"></td>
+                        <td id="episodeLi1_1Name">></td>
+                        <td id="episodeLi1_1Rating"></td>
+                    </tr>
+                    <tr>
+                        <td id="episodeLi1_2Season"></td>
+                        <td id="episodeLi1_2Name">></td>
+                        <td id="episodeLi1_2Rating"></td>
+                    </tr>
+                    <tr>
+                        <td id="episodeLi1_3Season"></td>
+                        <td id="episodeLi1_3Name">></td>
+                        <td id="episodeLi1_3Rating"></td>
+                    </tr>
+                    <tr>
+                        <td id="episodeLi1_4Season"></td>
+                        <td id="episodeLi1_4Name">></td>
+                        <td id="episodeLi1_4Rating"></td>
+                    </tr>
+                    <tr>
+                        <td id="episodeLi1_5Season"></td>
+                        <td id="episodeLi1_5Name">></td>
+                        <td id="episodeLi1_5Rating"></td>
+                    </tr>
+                    <tr>
+                        <td id="episodeLi1_6Season"></td>
+                        <td id="episodeLi1_6Name">></td>
+                        <td id="episodeLi1_6Rating"></td>
+                    </tr>
+                    <tr>
+                        <td id="episodeLi1_7Season"></td>
+                        <td id="episodeLi1_7Name">></td>
+                        <td id="episodeLi1_7Rating"></td>
+                    </tr>
+                    <tr>
+                        <td id="episodeLi1_8Season"></td>
+                        <td id="episodeLi1_8Name">></td>
+                        <td id="episodeLi1_8Rating"></td>
+                    </tr>
+                </table>
+            </section>
+        </a>
+        <a name="episodeListSeason2">
+            <section class="episodeListSeason2">
+                <h1 id="season2List">Season 2 episodes</h1>
+                <table id="episodes">
+                    <tr>
+                        <th id="season">Season</th>
+                        <th id="name">Name</th>
+                        <th id="rating">Rating</th>
+                    </tr>
+                    <tr>
+                        <td id="episodeLi2_1Season"></td>
+                        <td id="episodeLi2_1Name">></td>
+                        <td id="episodeLi2_1Rating"></td>
+                    </tr>
+                    <tr>
+                        <td id="episodeLi2_2Season"></td>
+                        <td id="episodeLi2_2Name">></td>
+                        <td id="episodeLi2_2Rating"></td>
+                    </tr>
+                    <tr>
+                        <td id="episodeLi2_3Season"></td>
+                        <td id="episodeLi2_3Name">></td>
+                        <td id="episodeLi2_3Rating"></td>
+                    </tr>
+                    <tr>
+                        <td id="episodeLi2_4Season"></td>
+                        <td id="episodeLi2_4Name">></td>
+                        <td id="episodeLi2_4Rating"></td>
+                    </tr>
+                    <tr>
+                        <td id="episodeLi2_5Season"></td>
+                        <td id="episodeLi2_5Name">></td>
+                        <td id="episodeLi2_5Rating"></td>
+                    </tr>
+                    <tr>
+                        <td id="episodeLi2_6Season"></td>
+                        <td id="episodeLi2_6Name">></td>
+                        <td id="episodeLi2_6Rating"></td>
+                    </tr>
+                    <tr>
+                        <td id="episodeLi2_7Season"></td>
+                        <td id="episodeLi2_7Name">></td>
+                        <td id="episodeLi2_7Rating"></td>
+                    </tr>
+                    <tr>
+                        <td id="episodeLi2_8Season"></td>
+                        <td id="episodeLi2_8Name">></td>
+                        <td id="episodeLi2_8Rating"></td>
+                    </tr>
+                    <tr>
+                        <td id="episodeLi2_9Season"></td>
+                        <td id="episodeLi2_9Name">></td>
+                        <td id="episodeLi2_9Rating"></td>
+                    </tr>
+                </table>
+            </section>
+        </a> <br><br>
+        <!-- skip to main content for screen readers - todo enhancement-->
+        <!--<a href="#mainContent" title="skip to main page content" class="skip">Skip to main content</a>-->
+        <script type="text/javascript" src="script/script_laPG.js"></script>
+         <footer>
+			<p><a href="https://www.newsobserver.com/news/local/article182497796.html">
+								Camila Molina </a>. |     
+			<a href="https://www.imdb.com/search/title/?series=tt4574334&view=simple&count=250&sort=user_rating,desc&ref_=tt_eps_rhs_sm">
+						IMDb</a>.</p>
+		</footer>
+    </div>
+</body>
+
+</html>
