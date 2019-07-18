@@ -23,26 +23,18 @@ Create a website to display content about a Netflix original that is popular in 
 
 The last detail is the most important... We want you to have fun with it!  We want to see your personality in the code, UI/UX, and the little things you do to make this simple content come to life.
 
-### Submission Requirements
-Post your solution to a public repository on [Github](https://github.com/). Send the repository URL back to the same person who sent you these instructions.
-
-### Questions?
-If there's anything that's unclear or if you just have a general question, we're just an email away! :)
-
-
 -------------------------------
 notes
 -------------------------------
-TODO items
-
-- responsive
-
+TODO
+- fix a Cross-Origin Read Blocking (CORB) for embeded error
 
 ENHANCEMENT items
 
-- fix a Cross-Origin Read Blocking (CORB) for embeded error and add trailers
+- add trailers
 - adding snippets with screenshots
 - freeze menu when scrolling
 - search box
 - add google translate button
 - back to top link
+- move navigation to bottom for small size screen
