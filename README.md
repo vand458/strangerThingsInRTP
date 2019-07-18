@@ -26,15 +26,3 @@ The last detail is the most important... We want you to have fun with it!  We 
 -------------------------------
 notes
 -------------------------------
-TODO
-- fix a Cross-Origin Read Blocking (CORB) for embeded error
-
-ENHANCEMENT items
-
-- add trailers
-- adding snippets with screenshots
-- freeze menu when scrolling
-- search box
-- add google translate button
-- back to top link
-- move navigation to bottom for small size screen
